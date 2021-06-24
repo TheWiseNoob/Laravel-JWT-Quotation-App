@@ -1,0 +1,316 @@
+/*      */
+/* HTML *//*//////////////////////////////////////////////////////////////////*/
+/*      */
+
+html
+{
+	height: 100vh;
+	max-height: 100vh;
+}
+
+
+
+/*      */
+/* Body *//*//////////////////////////////////////////////////////////////////*/
+/*      */
+
+body
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	height: 100%;
+
+	margin: 0;
+
+	font-family: 'Nunito', sans-serif;
+}
+
+
+
+
+
+/*                 */
+/* Login Container *//*//////////////////////////////////////////////////////*/
+/*                 */
+
+#login-container
+{
+	display: flex;
+	flex-direction: column;
+
+	width: 100%;
+	max-width: 300px;
+}
+
+
+
+
+
+
+/*            */
+/* Login Form *//*///////////////////////////////////////////////////////////*/
+/*            */
+
+#login-form
+{
+	display: flex;
+	flex-direction: column;
+
+	width: 100%;
+	max-width: 300px;
+}
+
+
+
+
+
+/*              */
+/* Login Inputs *//*/////////////////////////////////////////////////////*/
+/*              */
+
+#login-form input,
+#login-form select
+{
+	box-sizing: border-box;
+
+	height: 30px;
+
+	margin-bottom: 7px;
+
+	font-size: 18px;
+
+	background-color: white;
+
+	border-radius: 3px;
+	border: 1px solid rgba(70,70,70,1);
+}
+
+
+
+
+
+/*                     */
+/* Login Submit Button *//*//////////////////////////////////////////////////*/
+/*                     */
+
+#login-submit-button
+{
+	position: relative;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	font-size: 20px;
+	text-align: center;
+
+	overflow: hidden;
+
+	cursor: pointer;
+}
+
+
+
+#login-submit-button-loading-overlay
+{
+	position: absolute;
+
+	display: none;
+	justify-content: center;
+	align-items: center;
+
+	width: 100%;
+	height: 100%;
+
+	color: rgba(70,70,70,1);
+
+	background-color: rgba(255,255,255,0.6);
+}
+
+
+
+
+
+/*             */
+/* Login Error *//*//////////////////////////////////////////////////////////*/
+/*             */
+
+#login-error
+{
+
+	margin-top: 8px;
+
+	text-align: center;
+	color: red;
+
+}
+
+
+
+
+
+/*                     */
+/* Quotation Container *//*//////////////////////////////////////////////////*/
+/*                     */
+
+#quotation-container
+{
+	display: none;
+	justify-content: center;
+	align-items: flex-start;
+
+	width: 100%;
+	max-width: 300px;
+}
+
+
+
+@media only screen and (max-width: 600px)
+{
+
+	#quotation-container
+	{
+		flex-direction: column;
+	}
+
+}
+
+
+
+
+
+/*                */
+/* Quotation Form *//*///////////////////////////////////////////////////////*/
+/*                */
+
+#quotation-form
+{
+	display: flex;
+	flex-direction: column;
+
+	width: 100%;
+	max-width: 300px;
+}
+
+
+
+
+
+/*                  */
+/* Quotation Inputs *//*/////////////////////////////////////////////////////*/
+/*                  */
+
+#quotation-form input,
+#quotation-form select
+{
+	box-sizing: border-box;
+
+	height: 30px;
+
+	margin-bottom: 7px;
+
+	font-size: 18px;
+
+	background-color: white;
+
+	border-radius: 3px;
+	border: 1px solid rgba(70,70,70,1);
+}
+
+
+
+
+
+/*                         */
+/* Quotation Submit Button *//*//////////////////////////////////////////////*/
+/*                         */
+
+#quotation-submit-button
+{
+	position: relative;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	font-size: 20px;
+	text-align: center;
+
+	overflow: hidden;
+
+	cursor: pointer;
+}
+
+
+
+#quotation-submit-button-loading-overlay
+{
+	position: absolute;
+
+	display: none;
+	justify-content: center;
+	align-items: center;
+
+	width: 100%;
+	height: 100%;
+
+	color: rgba(70,70,70,1);
+
+	background-color: rgba(255,255,255,0.6);
+}
+
+
+
+
+
+/*                   */
+/* Quotation Results *//*////////////////////////////////////////////////////*/
+/*                   */
+
+#quotation-results
+{
+
+	width: 200px;
+
+	margin-top: 17px;
+	margin-left: 30px;
+
+	font-size: 18px;
+	white-space: nowrap;
+
+}
+
+
+
+@media only screen and (max-width: 600px)
+{
+
+	#quotation-results
+	{
+
+		margin-top: 30px;
+		margin-left: 0;
+
+	}
+
+}
+
+
+
+
+
+/*                 */
+/* Quotation Error *//*//////////////////////////////////////////////////////*/
+/*                 */
+
+#quotation-error
+{
+
+	margin-top: 8px;
+
+	text-align: center;
+	color: red;
+
+}
