@@ -37,6 +37,6 @@ Login using the email `admin@email.com` and the password `A^r+K<:jeRU*BH\Y4S?W`.
 
 ## Use App
 
-Use the quotation app the way required. :smiley:
+Use the quotation web app the way required. :smiley:
 
 ![Screenshot1](quotation-form.png?raw=true)
