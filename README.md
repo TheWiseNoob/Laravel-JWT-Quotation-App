@@ -8,7 +8,7 @@ Laravel JWT Quotation App is a Laravel-based web app serving as D.J. Griffin's s
 
 ## Create Datebase
 
-- Create a database on your web server. I named mine 'laravel_jwt_app'.
+- Create a database in your local database web server. I named mine 'laravel_jwt_app'.
 - If you chose a name other than 'laravel_jwt_app', replace it in the .env file at DB_DATABASE.
 - Enter your database username and password at DB_USERNAME and DB_PASSWORD in .env.
 
@@ -22,7 +22,7 @@ Run the command `php artisan migrate:fresh --seed` to create the needed tables a
 
 ## Setup Server
  
-- Add the code to your existing localhost webserver setup or use `php artisan serve`.
+- Add the code to your existing local web server setup or use `php artisan serve`.
 - If using `php artisan serve`, go to http://127.0.0.1:8000.
 
 
