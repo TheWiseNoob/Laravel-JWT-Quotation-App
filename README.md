@@ -1,6 +1,6 @@
 # About Laravel JWT Quotation App
 
-Laravel JWT Quotation App is a Laravel-based web app serving as D.J. Griffin's submission to Battleface.net's Coding Challenge. This web app uses a combination of Laravel's authentication system as well as the [jwt-auth](https://github.com/tymondesigns/jwt-auth) Laravel JWT authentication library to replace the default authentication guard with a JWT-based one. Please follow the steps below to get it working.
+Laravel JWT Quotation App is a Laravel-based web app serving as D.J. Griffin's submission to Battleface.net's Coding Challenge. This web app uses a combination of Laravel's authentication system and [jwt-auth](https://github.com/tymondesigns/jwt-auth) for user authentication. jwt-auth is a JWT authentication library used to replace the default authentication guard with a JWT-based one. Please follow the steps below to get it working.
 
 
 
