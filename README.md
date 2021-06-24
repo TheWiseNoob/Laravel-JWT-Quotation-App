@@ -16,7 +16,7 @@ Laravel JWT Quotation App is a Laravel-based web app serving as D.J. Griffin's s
 
 ## Create Tables & Seed Database
 
-Run the command `php artisan migrate:fresh --seed` in order to create the needed tables and seed the database with a new user.
+Run the command `php artisan migrate:fresh --seed` to create the needed tables and seed the database with a new user.
 
 
 
