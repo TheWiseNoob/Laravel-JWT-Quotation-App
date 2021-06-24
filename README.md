@@ -22,8 +22,8 @@ Run the command `php artisan migrate:fresh --seed` to create the needed tables a
 
 ## Setup Server
  
-- Add the code to your existing localhost webserver setup or use php artisan serve.
-- If using php artisan serve, go to http://127.0.0.1:8000.
+- Add the code to your existing localhost webserver setup or use `php artisan serve`.
+- If using `php artisan serve`, go to http://127.0.0.1:8000.
 
 
 
