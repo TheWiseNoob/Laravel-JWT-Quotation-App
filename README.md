@@ -28,5 +28,5 @@ Run the command `php artisan migrate:fresh --seed` in order to create the tables
 
 ## Login & Use App
 
-- Login using the email `admin@email.com` and the password `A^r+K<:jeRU\*BH\Y4S?W`. These credentials were present in .env when seeding the database.
+- Login using the email `admin@email.com` and the password `A^r+K<:jeRU*BH\Y4S?W`. These credentials were present in .env when seeding the database.
 - Use the quotation app the way required. :smiley:
