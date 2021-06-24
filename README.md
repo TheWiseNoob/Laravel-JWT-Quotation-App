@@ -1,8 +1,10 @@
-# Use Instructions
+# About Laravel JWT Quotation App
 
 Laravel JWT Quotation App is a Laravel-based web app serving as my submission to Battleface.net's Coding Challenge. Please follow the steps below to get it working.
 
 
+
+# Use Instructions
 
 ## Create Datebase
 
@@ -18,7 +20,7 @@ Run the command `php artisan migrate:fresh --seed` in order to create the tables
 
 
 
-## Setup Serve
+## Setup Server
  
 - Add the code to your existing localhost webserver setup or use php artisan serve.
 - If using php artisan serve, go to http://127.0.0.1:8000.
