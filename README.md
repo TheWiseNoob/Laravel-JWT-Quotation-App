@@ -26,11 +26,17 @@ Run the command `php artisan migrate:fresh --seed` in order to create the tables
 - If using php artisan serve, go to http://127.0.0.1:8000.
 
 
+
 ## Login & Use App
 
-- Login using the email `admin@email.com` and the password `A^r+K<:jeRU*BH\Y4S?W`. These credentials were present in .env when seeding the database.
-- Use the quotation app the way required. :smiley:
+Login using the email `admin@email.com` and the password `A^r+K<:jeRU*BH\Y4S?W`. These credentials were present in .env when seeding the database.
 
 ![Screenshot1](login-form.png?raw=true)
+
+
+
+## Use App
+
+Use the quotation app the way required. :smiley:
 
 ![Screenshot1](quotation-form.png?raw=true)
